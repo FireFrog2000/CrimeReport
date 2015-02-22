@@ -86,6 +86,7 @@ Sign Up Your Account!!!
                                            <B class="text-warning"> {{$errors->first('country')}} </B>
                                     </div>
                                 </div>
+                                <br/>
                             <div class="row top-margin">
 
                            		<div class="col-lg-12 text-right">

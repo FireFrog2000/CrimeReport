@@ -23,7 +23,7 @@ Route::resource('report', 'ReportsController',array('except' => array('')));
 Route::group(array("prefix" => "api/v1"),function(){
 
     Route::resource('report', 'ReportsControllerAPI',array('except' => array('')));
-
+    Route::get('/category',array("as" => "crime.category","uses" =>"ReportsControllerAPI@getCategory" ));
 });
 
 

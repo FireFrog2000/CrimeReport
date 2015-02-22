@@ -33,6 +33,14 @@ Sign In Your Account !!!
                          <B class="text-warning">{{$errors->first('password')}} </B>
                 </div>
 
+ <div class="top-margin text-right">
+                    <label><a href="{{URL::route('user.signup')}}">Sign Up?</a></label>
+
+
+                </div>
+<br/>
+
+
                  <div class="row top-margin">
 
                     <div class="col-lg-12 text-right">

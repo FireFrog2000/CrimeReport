@@ -105,4 +105,5 @@ class ReportsController extends \BaseController {
 		return Redirect::route('reports.index');
 	}
 
+
 }

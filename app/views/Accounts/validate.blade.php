@@ -26,8 +26,9 @@ Acivate Your Account!!!
 
                 </div>
 
-                 <div class="row top-margin">
 
+                 <div class="row top-margin">
+                    <br/>
                     <div class="col-lg-12 text-right">
                                 <button class="btn btn-action" type="submit">Activate</button>
                     </div>

@@ -104,4 +104,10 @@ class ReportsControllerAPI extends \BaseController {
 		return Redirect::route('reports.index');
 	}
 
+    public function getCategory()
+    {
+            $crime=Crime::all();
+            return Response::json($crime);
+
+    }
 }
