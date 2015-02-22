@@ -44,7 +44,7 @@ Sign In Your Account !!!
                  <div class="row top-margin">
 
                     <div class="col-lg-12 text-right">
-                                <button class="btn btn-action" type="submit">Login</button>
+                               <input class="btn btn-action" type="submit" value="Login" />
                     </div>
                 </div>
         </form>
