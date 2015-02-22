@@ -1,7 +1,10 @@
-@include('theme.theme2.inc.config')) // Configuration php file ?>
-@include('theme.theme2.inc.top')) // Meta data and header ?>
-@include('theme.theme2.inc.nav')) // Navigation content ?>
+<?php
+require_once(app_path().'/includes/config.php'); // Configuration php file
+require_once(app_path().'/includes/top.php'); // Meta data and header
+require_once(app_path() . '/includes/nav.php'); // Navigation content
 
+?>
+@include('theme.theme2.css-layout')
 <!-- Page Content -->
 <div id="page-content">
     <!-- Navigation info -->
@@ -94,7 +97,7 @@
                             <a href="javascript:void(0)" class="btn btn-default" data-toggle="tooltip" title="Share"><i class="fa fa-share-square-o"></i></a>
                         </div>
                     </div>
-                    Polic Stations
+                    Police Stations
                 </div>
                 <div class="dash-tile-icon"><i class="fa fa-globe"></i></div>
             </div>
@@ -256,7 +259,7 @@
 </div>
 <!-- END Page Content -->
 
-<?php include 'inc/footer.php'; // Footer and scripts ?>
+ <?php require_once (app_path() . "./includes/bottom.php"); // Footer and scripts ?>
 
 <!-- Javascript code only for this page -->
 <script>
@@ -391,5 +394,6 @@
         });
     });
 </script>
+@include('theme.theme2.js-layout')
+<?php require_once (app_path() . "./includes/bottom.php");
 
-@include('theme.theme2.inc.bottom')) // Close body and html tags ?>
